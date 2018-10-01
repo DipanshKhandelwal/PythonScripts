@@ -1,11 +1,13 @@
 language: python
 python:
-  - "3.6"
+  - "3.6
 
 install:
   - sudo apt-get update
+  - pip install coala-bears
   - cd $TRAVIS_BUILD_DIR
 
 script:
-  - python -V
+- coala --ci
+
 
