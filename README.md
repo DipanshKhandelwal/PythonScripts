@@ -1,6 +1,6 @@
 # PythonScripts
 
-# 1. Insertion Sort
+1. Insertion Sort
 
 If you want to know the asymptotics of insertion sort, this program displays it
 
