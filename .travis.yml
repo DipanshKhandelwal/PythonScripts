@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.6"
+
+install:
+  - sudo apt-get update
+  - cd $TRAVIS_BUILD_DIR
+
+script:
+  - python -V
+
