@@ -11,4 +11,8 @@ def binaryToDecimal(binary):
         decimal = decimal + dec * pow(2, i) 
         binary = binary//10
         i += 1
-    print(decimal)   
+    print(decimal)
+
+# One More Way
+def bin2dec(binary):
+    print(int(str(binary),2))
